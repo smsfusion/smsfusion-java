@@ -112,7 +112,7 @@ public class ApiClient {
      */
     public static final String LENIENT_DATETIME_FORMAT = "yyyy-MM-dd'T'HH:mm:ss.SSSZ";
 
-    private String basePath = "http://api.smsfusion.com.au/";
+    private String basePath = "https://api.smsfusion.com.au/";
     private boolean lenientOnJson = false;
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
@@ -178,7 +178,7 @@ public class ApiClient {
     /**
      * Set base path
      *
-     * @param basePath Base path of the URL (e.g http://api.smsfusion.com.au/
+     * @param basePath Base path of the URL (e.g https://api.smsfusion.com.au/
      * @return An instance of OkHttpClient
      */
     public ApiClient setBasePath(String basePath) {

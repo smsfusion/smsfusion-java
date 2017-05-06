@@ -21,7 +21,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * OutOfCredit
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-05-04T01:25:59.406-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-05-05T22:22:19.233-07:00")
 public class OutOfCredit {
   @SerializedName("error")
   private String error = null;
